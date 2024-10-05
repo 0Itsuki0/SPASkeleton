@@ -1,0 +1,1 @@
+pub static TABLE_NAME_KEY: &str = "TABLE_NAME";

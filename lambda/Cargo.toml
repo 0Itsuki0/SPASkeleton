@@ -1,0 +1,21 @@
+[package]
+name = "lambda"
+version = "0.1.0"
+edition = "2021"
+
+[package.metadata.lambda.env]
+"TABLE_NAME"="SPADatabaseStack-SPATableFB30DBF5-U29CBTFG9A0E"
+
+
+[dependencies]
+anyhow = "1.0.82"
+aws-config = { version = "1.1.7", features = ["behavior-version-latest"] }
+aws-smithy-types = "1.2.2"
+tokio = { version = "1", features = ["macros"] }
+serde_json = "1.0.127"
+serde = { version = "1.0.209", features = ["derive"] }
+uuid = { version = "1.10.0", features = ["v4"] }
+axum = "0.7.5"
+lambda_http = "0.13.0"
+aws-sdk-dynamodb = "1.43.0"
+serde_dynamo = { version = "4.2.14", features = ["aws-sdk-dynamodb+1"] }
