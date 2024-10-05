@@ -46,7 +46,8 @@ This will create the following resources.
 If you want to deploy the FrontEnd somewhere else, you could deploy the backend only with the following command.
 ```
 cd cdk
-cdk deploy SPADatabaseStack SPAHandlerStack
+cdk deploy SPADatabaseStack
+cdk deploy SPAHandlerStack
 ```
 Note that in this case, you will need to manually set up the environment variable `API_ENDPOINT` for your Next.js App.
 ```
