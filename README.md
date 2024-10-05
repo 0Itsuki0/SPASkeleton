@@ -53,3 +53,6 @@ Note that in this case, you will need to manually set up the environment variabl
 ```
 API_ENDPOINT="https://api_gateway_endpont_url/stage_name/"
 ```
+
+
+For more details, please check out [Single Page Application Skeleton](https://link.medium.com/Ortbk3QprNb ).
